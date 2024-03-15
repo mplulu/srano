@@ -1,6 +1,6 @@
 module mplulu/srano
 
-go 1.21.5
+go 1.18
 
 require (
 	github.com/mplulu/rano v1.0.3
