@@ -6,6 +6,7 @@ import (
 	"mplulu/srano/renv"
 	"os"
 	"strings"
+	"time"
 
 	"github.com/mplulu/rano"
 )
@@ -36,4 +37,5 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+	fmt.Printf("%v sent %v\n", time.Now().Format("2006-01-02 15:04:05"), message)
 }
